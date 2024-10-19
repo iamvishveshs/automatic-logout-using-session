@@ -4,6 +4,9 @@
 
 This project demonstrates a secure PHP session-based login system with an auto-logout feature. Users can register, log in, and will be automatically logged out after a period of inactivity. This enhances security by ensuring that unattended sessions do not remain open indefinitely.
 
+## Screenshots
+
+![Project Screenshot](https://github.com/iamvishveshs/iamvishveshs.github.io/blob/main/assets/png/automatic-logout-using-session-thumbnail1.png)
 ## Features
 
 - **User Registration**: Secure signup with unique usernames and hashed passwords.
