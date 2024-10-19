@@ -6,7 +6,7 @@ This project demonstrates a secure PHP session-based login system with an auto-l
 
 ## Screenshots
 
-![Project Screenshot](https://github.com/iamvishveshs/iamvishveshs.github.io/blob/main/assets/png/automatic-logout-using-session-thumbnail1.png)
+![Project Screenshot](https://github.com/iamvishveshs/iamvishveshs.github.io/blob/main/assets/png/automatic-logout-using-session-thumbnail.png?raw=true)
 ## Features
 
 - **User Registration**: Secure signup with unique usernames and hashed passwords.
