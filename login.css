@@ -1,0 +1,135 @@
+:root {
+    --theme-bg-color: #ffffff;
+    --theme-text-color: #000000;
+    --theme-secondary-color: #706f6f;
+    --theme-transition: all 0.2s ease-in-out;
+    --theme-border: 1.5px solid rgb(204, 202, 202);
+    --theme-border-radius: 3px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-family: "Quicksand", sans-serif;
+  }
+  body {
+    background-color: var(--theme-bg-color);
+    color: var(--theme-text-color);
+    position: relative;
+    min-height: 100%;
+    overflow: scroll;
+  }
+  .loginContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .loginForm {
+    min-width: 340px;
+    border: 1px solid mediumseagreen;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+  .loginForm h2 {
+    text-align: center;
+  }
+  .loginForm .loginField {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .loginField label,p {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  .formInput {
+    height: 40px;
+    padding: 5px;
+    font-weight: 600;
+    color: mediumseagreen;
+    transition: var(--theme-transition);
+    border: var(--theme-border);
+    border-radius: var(--theme-border-radius);
+  }
+  .formInput:focus {
+    outline: none;
+    border-color: mediumseagreen;
+  }
+  .formInput::placeholder {
+    color: mediumseagreen;
+  }
+  .formSubmit {
+    margin-top: 20px;
+    height: 40px;
+    background-color: rgb(28, 172, 93);
+    color: white !important;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--theme-border-radius);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: var(--theme-transition);
+  }
+  .formSubmit:hover {
+    box-shadow: 0px 0px 5px 0px rgb(22, 226, 114);
+  }
+
+  .divider {
+    position: relative;
+    border-bottom: var(--theme-border);
+  }
+  .divider::before {
+    content: "OR";
+    position: absolute;
+    width: auto;
+    color: mediumseagreen;
+    background-color: var(--theme-bg-color);
+    padding-inline: 5px;
+    font-size: 0.7em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  a{
+    color: dodgerblue;
+    text-decoration: none;
+    
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  .center{
+    text-align: center;
+  }
+  .error
+  {
+    color:rgb(185, 7, 7);
+    font-weight:bold;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .success
+  {
+    color:mediumseagreen;
+    font-weight:bold;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+.button {
+    padding:10px 10px;
+    background-color: rgb(28, 172, 93);
+    color: white !important;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--theme-border-radius);
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: var(--theme-transition);
+  }
